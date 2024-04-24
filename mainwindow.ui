@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="3" column="2" colspan="3">
+     <widget class="QComboBox" name="comboBox_selection">
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="6">
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="5">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>Adding</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QComboBox" name="CombBox_add"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_Key"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_Valuye"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Key</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Value</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QPushButton" name="Add_pushButton">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Add</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>Deleting</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Key</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBox_delete">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QPushButton" name="pushButton">
+         <property name="font">
+          <font>
+           <family>Arial Rounded MT Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Deleting</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QPushButton" name="pushButtot_Selectiong_on">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/pictures/icon-plus.png</normaloff>:/pictures/icon-plus.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="QPushButton" name="pushButton_selection_off">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/pictures/icon-minus.png</normaloff>:/pictures/icon-minus.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="5">
+     <widget class="QListWidget" name="listWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>192</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>387</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" alignment="Qt::AlignLeft">
+     <widget class="QLabel" name="Selection">
+      <property name="maximumSize">
+       <size>
+        <width>386</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Selection</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1061</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="addFile"/>
+    <addaction name="separator"/>
+    <addaction name="directory_selection"/>
+    <addaction name="separator"/>
+    <addaction name="CreateFile"/>
+    <addaction name="separator"/>
+    <addaction name="Save"/>
+    <addaction name="separator"/>
+    <addaction name="Close"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="addFile"/>
+   <addaction name="directory_selection"/>
+   <addaction name="CreateFile"/>
+   <addaction name="Save"/>
+   <addaction name="Close"/>
+  </widget>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="kot.qrc">
+     <normaloff>:/new/prefix1/kot/free-icon-black-cat-3277257.png</normaloff>:/new/prefix1/kot/free-icon-black-cat-3277257.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выбрать каталог</string>
+   </property>
+  </action>
+  <action name="Close">
+   <property name="icon">
+    <iconset resource="kot.qrc">
+     <normaloff>:/new/prefix1/kot/free-icon-cat-4219827.png</normaloff>:/new/prefix1/kot/free-icon-cat-4219827.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="addFile">
+   <property name="icon">
+    <iconset resource="kot.qrc">
+     <normaloff>:/new/prefix1/kot/free-icon-black-cat-5443348.png</normaloff>:/new/prefix1/kot/free-icon-black-cat-5443348.png</iconset>
+   </property>
+   <property name="text">
+    <string>Добавить Файл</string>
+   </property>
+  </action>
+  <action name="CreateFile">
+   <property name="icon">
+    <iconset resource="kot.qrc">
+     <normaloff>:/new/prefix1/kot/free-icon-cat-5541564.png</normaloff>:/new/prefix1/kot/free-icon-cat-5541564.png</iconset>
+   </property>
+   <property name="text">
+    <string>Создать пустой файл</string>
+   </property>
+  </action>
+  <action name="Save">
+   <property name="icon">
+    <iconset resource="kot.qrc">
+     <normaloff>:/new/prefix1/kot/free-icon-cat-5772436.png</normaloff>:/new/prefix1/kot/free-icon-cat-5772436.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранение изменений</string>
+   </property>
+  </action>
+  <action name="directory_selection">
+   <property name="icon">
+    <iconset resource="kot.qrc">
+     <normaloff>:/new/prefix1/kot/free-icon-black-cat-3277257.png</normaloff>:/new/prefix1/kot/free-icon-black-cat-3277257.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выбрать Каталог</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="kot.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Close</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

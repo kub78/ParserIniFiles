@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/new/prefix1">
+        <file>kot/free-icon-black-cat-3277257.png</file>
+        <file>kot/free-icon-black-cat-5443348.png</file>
+        <file>kot/free-icon-cat-4219827.png</file>
+        <file>kot/free-icon-cat-5772436.png</file>
+        <file>kot/free-icon-cat-5541564.png</file>
+    </qresource>
+</RCC>

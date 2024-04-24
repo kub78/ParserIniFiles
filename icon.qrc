@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/icons8-выход-100.png</file>
+        <file>icon/icons8-добавить-папку-48.png</file>
+        <file>icon/icons8-добавить-файл-100.png</file>
+        <file>icon/icons8-сохранить-50.png</file>
+        <file>icon/icons8-список-пуст-100.png</file>
+    </qresource>
+</RCC>
